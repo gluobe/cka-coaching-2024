@@ -59,7 +59,7 @@ kubectl apply -f pod-reader-rolebinding.yml
 ```
 kubectl get pods -n beebox-mobile --kubeconfig dev-k8s-config                 # works!
 kubectl logs beebox-auth -n beebox-mobile --kubeconfig dev-k8s-config         # works!
-kubectl delete pod beebox-auth -n beebox-mobile --kubeconfig dev-k8s-config   # works!
+kubectl delete pod beebox-auth -n beebox-mobile --kubeconfig dev-k8s-config   # doesn't work
 ```
 
 ```
