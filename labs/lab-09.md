@@ -48,6 +48,7 @@ spec:
       initialDelaySeconds: 5
       periodSeconds: 5
     ...
+```
 
 Delete the pod:
 ```
