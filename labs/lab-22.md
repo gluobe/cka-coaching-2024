@@ -2,7 +2,7 @@
 
 ## Documenation
 
-* https://kubernetes.io/docs/tasks/debug/debug-cluster/ (search: journalctl)
+* https://kubernetes.io/docs/tasks/debug/debug-application/ (search: troubleshoot)
 
 ## Task 1 - Identify What is Wrong with the Application
 
