@@ -4,7 +4,7 @@
 
 SSH into the node:
 ```
-ssh clustet2-master1
+ssh cluster2-master1
 ```
 
 Use the following command:

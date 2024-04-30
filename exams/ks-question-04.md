@@ -22,7 +22,7 @@ spec:
         command:
         - 'sh'
         - '-c'
-        - 'wget -T2 -O- http://service-am-i-ready:80
+        - 'wget -T2 -O- http://service-am-i-ready:80'
 ```
 
 ## Create second pod
@@ -34,6 +34,8 @@ kind: Pod
 metadata:
   name: am-i-ready
   namespace: default
+  label:
+    id: cross-server-ready
 spec:
   containers:
   - image: nginx:1.16.1-alpine
